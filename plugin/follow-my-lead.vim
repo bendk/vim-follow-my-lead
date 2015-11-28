@@ -116,6 +116,3 @@ function! FMLShow()
 endfunction
 
 nnoremap <silent> <Plug>(FollowMyLead) :call FMLShow()<CR>
-
-" Open Leader mappings in new window
-nmap <Leader>fml <Plug>(FollowMyLead)
